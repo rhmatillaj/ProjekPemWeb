@@ -138,6 +138,65 @@ body {
     display: block;
 }
 
+/* Kategori */
+book-card .text-muted.mb-1 {
+    color: #9b7a43 !important;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+/* Fiqri */
+.kategori {
+    padding: 20px 0;
+    margin-left: 20px;
+}
+
+.kategori h2 {
+    margin: 10px;
+    font: bold 24px Georgia;
+}
+
+
+.kategori > p {
+    color: #173c44;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.kartu-buku {
+    background: white;
+    padding: 12px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.kartu-buku:hover{
+    transform: translateY(-5px);
+}
+
+.kartu-buku img {
+    width: 80px;
+    height: 105px;
+    object-fit: cover;
+}
+
+.kartu-buku h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.kartu-buku p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.kartu-buku a:hover {
+    color: #9b7a43;
+}
 
 /* REVIEW BUKU */
 
