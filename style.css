@@ -1,0 +1,63 @@
+body {
+    background: #F7F4ED;
+    color: #1E2D35;
+}
+
+
+
+.navbar {
+    background: #18262D;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #C9A24D;
+}
+
+
+
+.hero {
+    padding: 100px 0;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p:first-child {
+    color: #C9A24D;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+}
+
+.btn-gold {
+    display: inline-block;
+    background: #C9A24D;
+    color: #18262D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+
