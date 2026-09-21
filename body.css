@@ -1,0 +1,116 @@
+body {
+    background: #F7F4ED;
+    color: #1E2D35;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background: #18262D;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #C9A24D;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 100px 0;
+    color: white;
+
+    background:
+        linear-gradient(#18262DCC, #18262DCC),
+        url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p:first-child {
+    color: #C9A24D;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+}
+
+.btn-gold {
+    display: inline-block;
+    background: #C9A24D;
+    color: #18262D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+/* BUKU */
+
+.card {
+    border: none;
+    margin-top: 20px;
+}
+
+.card img {
+    height: 280px;
+    object-fit: contain;
+    background: #F7F4ED;
+}
+
+.card p {
+    color: #66737A;
+}
+
+.badge {
+    background: #1F4142;
+    margin-top: 8px;
+}
+
+
+/* QUOTE */
+
+.quote {
+    background: #18262D;
+    color: white;
+    padding: 50px 0;
+}
+
+.quote p {
+    color: #87958A;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #18262D;
+    color: white;
+    padding: 40px 0;
+}
+
+footer p {
+    color: #87958A;
+}
