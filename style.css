@@ -10,13 +10,21 @@ body {
     padding: 15px 0;
 }
 
+.container{
+    color:white;
+}
+.container a:hover{
+    color:#C9A24D;
+}
 .navbar-brand {
     color: white;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
-
+.navbar-brand span, i{
+    color:#C9A24D
+}
 .menu {
     display: flex;
     gap: 25px;
@@ -33,9 +41,13 @@ body {
 
 
 
+
 .hero {
     padding: 100px 0;
     color: white;
+    background:
+        linear-gradient(#18262DCC, #18262DCC),
+        url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200");
     background-size: cover;
     background-position: center;
 }
@@ -93,4 +105,8 @@ footer {
 
 footer p {
     color: #87958A;
+}
+
+footer span, i{
+    color:white;
 }
