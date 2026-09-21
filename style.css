@@ -103,7 +103,7 @@ body {
     padding: 10px 20px;
 
     background: #e2b45b;
-    color: #173c44;
+    color: white;
 
     text-decoration: none;
     border-radius: 25px;
@@ -113,7 +113,7 @@ body {
 }
 
 .btn-review:hover {
-    background: #d19f45;
+    background: #173c44;
 }
 
 
