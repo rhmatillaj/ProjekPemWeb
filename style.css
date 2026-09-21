@@ -139,7 +139,7 @@ body {
 }
 
 /* Kategori */
-book-card .text-muted.mb-1 {
+.book-card .text-muted.mb-1 {
     color: #9b7a43 !important;
     font-size: 0.72rem;
     font-weight: 600;
