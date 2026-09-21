@@ -79,9 +79,11 @@ body {
 }
 
 .card img {
-    height: 280px;
+    width: 100%;
+    height: 315px;
     object-fit: contain;
-    background: #F7F4ED;
+    border-radius: 3px;
+    display: block;
 }
 
 .card p {
@@ -93,6 +95,24 @@ body {
     margin-top: 8px;
 }
 
+.btn-review {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 20px;
+
+    background: #e2b45b;
+    color: #173c44;
+
+    text-decoration: none;
+    border-radius: 25px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-review:hover {
+    background: #d19f45;
+}
 
 
 
