@@ -22,8 +22,8 @@ body {
     font-size: 22px;
     text-decoration: none;
 }
-.navbar-brand span, i{
-    color:#C9A24D
+.navbar-brand i, span{
+    color:#C9A24D;
 }
 .menu {
     display: flex;
@@ -118,7 +118,7 @@ body {
 }
 
 
-/*Dhaifi-Buku*/
+/*Dhaifi*/
 .book-cover {
     width: 105px;
     min-width: 105px;
@@ -138,64 +138,51 @@ body {
     display: block;
 }
 
-/* Kategori */
-book-card .text-muted.mb-1 {
-    color: #9b7a43 !important;
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
+
+/* REVIEW BUKU */
+
+.review-cover {
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    object-fit: contain;
+    background: #F7F4ED;
 }
 
-/* Fiqri */
-.kategori {
-    padding: 20px 0;
-    margin-left: 20px;
+.review-category {
+    color: #C9A24D;
+    font-weight: bold;
 }
 
-.kategori h2 {
-    margin: 10px;
-    font: bold 24px Georgia;
+.review-content {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
 }
 
-
-.kategori > p {
-    color: #173c44;
-    font-size: 12px;
-    margin-left: 10px;
+.review-content h2 {
+    color: #1E2D35;
+    margin-bottom: 20px;
 }
 
-.kartu-buku {
-    background: white;
-    padding: 12px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    border-radius: 7px;
+.review-content h4 {
+    color: #1F4142;
+    margin-top: 25px;
 }
 
-.kartu-buku:hover{
-    transform: translateY(-5px);
+.back-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 18px;
+    background: #1F4142;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
-.kartu-buku img {
-    width: 80px;
-    height: 105px;
-    object-fit: cover;
-}
-
-.kartu-buku h3 {
-    margin: 0;
-    font-size: 18px;
-}
-
-.kartu-buku p {
-    font-size: 12px;
-    margin: 5px 0;
-}
-
-.kartu-buku a:hover {
-    color: #9b7a43;
+.back-btn:hover {
+    background: #C9A24D;
+    color: #18262D;
 }
 
 /* Qoute */
@@ -208,9 +195,6 @@ book-card .text-muted.mb-1 {
     background-size: cover;
     background-position: center;
 }
-
-/* Fiqri */
-/* .kategori */
 
 
 
