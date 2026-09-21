@@ -118,7 +118,7 @@ body {
 }
 
 
-/*Dhaifi*/
+/*Dhaifi-Buku*/
 .book-cover {
     width: 105px;
     min-width: 105px;
@@ -136,6 +136,15 @@ body {
     height: 100%;
     object-fit: contain;
     display: block;
+}
+
+/* Kategori */
+.book-card .text-muted.mb-1 {
+    color: #9b7a43 !important;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 
