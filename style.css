@@ -61,7 +61,25 @@ body {
 
 
 
+.card {
+    border: none;
+    margin-top: 20px;
+}
 
+.card img {
+    height: 280px;
+    object-fit: contain;
+    background: #F7F4ED;
+}
+
+.card p {
+    color: #66737A;
+}
+
+.badge {
+    background: #1F4142;
+    margin-top: 8px;
+}
 
 
 
