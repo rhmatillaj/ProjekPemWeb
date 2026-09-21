@@ -114,7 +114,15 @@ body {
 }
 
 
-
+.qoute {
+    padding: 100px 0;
+    color: white;
+    background:
+        linear-gradient(#18262DCC, #18262DCC),
+        url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200");
+    background-size: cover;
+    background-position: center;
+}
 
 footer {
     background: #18262D;
